@@ -1,0 +1,36 @@
+# Social Network API
+
+This is a backend API for a social network web application where users can share their thoughts, react to friends' thoughts, and manage a list of friends. It is built using **Node.js**, **Express.js**, **MongoDB**, and **Mongoose**.
+
+## Features
+
+- Create, read, update, and delete **users** and **thoughts**
+- Add and remove **friends** from a user's friend list
+- Add and remove **reactions** to thoughts
+- Timestamps formatted using native JavaScript `Date` object
+- MongoDB models and schema validation using **Mongoose**
+
+## Technologies Used
+
+- Node.js
+- Express.js
+- MongoDB
+- Mongoose ODM
+- JavaScript (ES6)
+
+
+### Installation
+
+1. Clone the repository:
+
+   git clone https://github.com/tcs3000/Challenge-17-Social-Network.git
+   cd social-network-api
+
+   npm install
+
+   MONGO_URI=mongodb://127.0.0.1:27017/socialnetwork
+
+   npm start
+ 
+Walkthrough Video
+Click here to view the walkthrough video
